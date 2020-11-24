@@ -6,6 +6,7 @@ export const StyledContainer = styled.div`
   flex-direction: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 16px;
 `;
 
 export const StyledCard = styled.div`
@@ -17,6 +18,7 @@ export const StyledCard = styled.div`
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   border-radius: 4px;
   background-color: #fff;
+  cursor: pointer;
   div {
     margin-right: 16px;
   }
@@ -37,3 +39,14 @@ export const StyledValue = styled.div`
   color: #464646;
   font-weight: 700;
 `;
+
+export const StyledInput = styled.input`
+  border: none;
+  height: 25px;
+  width: 200px;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+` 

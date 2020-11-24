@@ -37,3 +37,13 @@ export const StyledValue = styled.div`
   color: #464646;
   font-weight: 700;
 `;
+
+export const StyledButton = styled.button`
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 2.5px 2.5px 10px rgba(0,0,0,.1);
+  cursor: pointer;
+`
